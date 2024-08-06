@@ -1,0 +1,19 @@
+class Addition
+{
+int a,b,tot;
+void add()
+{
+a=5;
+b=10;
+tot=a=b;
+system.out.println(tot);
+}
+}
+class Maddition
+{
+public static void main(string args[])
+{
+Addition ob=new Addition();
+ob.add();
+}
+}
